@@ -1,0 +1,20 @@
+[ 2016-12-12T22:29:15+08:00 ] ::1 /baleijia/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039580s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `t_user`  [ RunTime:0.0005s ]
+
+[ 2016-12-12T22:29:16+08:00 ] ::1 /baleijia/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.2188s ]
+SQL: SELECT * FROM `t_user`  [ RunTime:0.0008s ]
+
